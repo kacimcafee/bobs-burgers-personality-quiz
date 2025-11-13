@@ -1,0 +1,112 @@
+/*
+🍔 Burger Yellow	    #F4C430	    The Bob’s Burgers sign background
+❤️ Ketchup Red	        #D12C2C	    The red lettering and ketchup
+💚 Pickle Green	        #97B23D	    The restaurant’s exterior walls
+🧈 Buttery Cream	    #FFF4C1	    Warm interior tones
+🩵 Sky Blue	            #77BBD7	    Tina’s shirt and the outside sky
+⚫ Patty Brown	       #3E2F2F	    Text and outlines (Bob’s mustache)
+*/
+
+
+body {
+  font-family: "Arial", "Helvetica", sans-serif;
+  background-color: #F4c430;
+  color: #D12c2c;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+
+
+
+
+
+
+/* Header */
+header {
+  background-color: #D12c2c;
+  color: #F4c430;
+  padding: 1.5rem;
+  font-weight: bold;
+  text-shadow: #3e2f2f;
+  font-family: "Luckiest Guy", cursive;
+}
+
+main {
+  background-color: #F4c430;
+  border: 4px solid #D12c2c;
+  border-radius: 16px;
+  margin: 2rem auto;
+  padding: 2rem;
+  max-width: 700px;
+  box-shadow: 4px 4px 0 var(#111);
+}
+
+
+
+
+
+
+
+/* Questions */
+.question h2 {
+  color: #D12c2c;
+  margin-bottom: 1rem;
+}
+
+
+
+
+
+
+
+
+/* Answer buttons */
+button {
+  background-color: #97B23D;
+  color: #111;
+  border: none;
+  border-radius: 8px;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  margin: 0.5rem;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+button:hover {
+  background-color: #D12c2c;
+  color: #111;
+}
+
+
+
+
+
+
+
+
+
+/* Result section */
+#result {
+  background-color: #111;
+  color: #111;
+  border: 3px solid #111;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 2px 2px 0 #111;
+  margin-top: 2rem;
+}
+
+
+.hidden {
+  display: none;
+}
+
+
+#result img {
+  max-width: 200px;
+  margin: 1rem 0;
+  border-radius: 12px;
+}
