@@ -2,10 +2,13 @@
 
 
 # TO DO:
-    [ ] create questions
+    [X] create questions
     [ ] upload character images
         [ ] alt text for images
     [ ] character descriptions 
-    [ ] create JS 
-    [ ] add CSS
+    [X] create JS 
+    [ ] review JS and break it down
+    [X] add CSS
+    [X] have questions randomized
+    
 

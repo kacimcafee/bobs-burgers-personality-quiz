@@ -7,24 +7,118 @@
     </head>
 
     <body>
-        <h1>Which Bob's Burgers Character Are You?</h1>
+        <h1>Which Belcher Are You?</h1>
 
         <main>
             <section id="quiz">
-                <div class="questions">
+
+                <div class="question">
+                    <p>1. What do you enjoy the most?</p>
+                    <label><input type="radio" name="q1" value="tina"> Writing fanfiction</label><br>
+                    <label><input type="radio" name="q1" value="louise"> Causing chaos</label><br>
+                    <label><input type="radio" name="q1" value="gene"> Making music</label><br>
+                    <label><input type="radio" name="q1" value="bob"> Cooking</label><br>
+                    <label><input type="radio" name="q1" value="linda"> Spending time with family</label><br>
                 </div>
-                <button id="Submit">See My Character!</button>
+
+                <div class="question">
+                    <p>2. How do you usually spend your free time?</p>
+                    <label><input type="radio" name="q2" value="tina"> Daydreaming about boys</label><br>
+                    <label><input type="radio" name="q2" value="louise"> Plotting or strategizing</label><br>
+                    <label><input type="radio" name="q2" value="gene"> Coming up with rad rhythms</label><br>
+                    <label><input type="radio" name="q2" value="bob"> Trying a new recipe</label><br>
+                    <label><input type="radio" name="q2" value="linda"> Singing or crafting</label><br>
+                    
+                    
+                </div>
+
+                <div class="question">
+                    <p>3. What describes your sense of humor?</p>
+                    <label><input type="radio" name="q3" value="tina"> Awkward and honest</label><br>
+                    <label><input type="radio" name="q3" value="louise"> Dark and mischievous</label><br>
+                    <label><input type="radio" name="q3" value="gene"> Silly and absurd</label><br>
+                    <label><input type="radio" name="q3" value="bob"> Dry and sarcastic</label><br>
+                    <label><input type="radio" name="q3" value="linda"> Dramatic and theatrical</label><br>
+                </div>
+
+                <div class="question">
+                    <p>4. What motivates you most?</p>
+                    <label><input type="radio" name="q4" value="tina"> Romance or crushes</label><br>
+                    <label><input type="radio" name="q4" value="louise"> Power and money</label><br>
+                    <label><input type="radio" name="q4" value="gene"> Fun and excitement</label><br>
+                    <label><input type="radio" name="q4" value="bob"> Doing something well</label><br>
+                    <label><input type="radio" name="q4" value="linda"> Love and connection</label><br>
+                </div>
+
+                <div class="question">
+                    <p>5. How would people describe you?</p>
+                    <label><input type="radio" name="q5" value="tina"> Thoughtful</label><br>
+                    <label><input type="radio" name="q5" value="louise"> Fearless</label><br>
+                    <label><input type="radio" name="q5" value="gene"> Outgoing</label><br>
+                    <label><input type="radio" name="q5" value="bob"> Reliable</label><br>
+                    <label><input type="radio" name="q5" value="linda"> Expressive</label><br>
+                </div>
+
+                <div class="question">
+                    <p>6. How do you react when plans go wrong?</p>
+                    <label><input type="radio" name="q6" value="tina"> Freeze awkwardly</label><br>
+                    <label><input type="radio" name="q6" value="louise"> Take advantage of the chaos</label><br>
+                    <label><input type="radio" name="q6" value="gene"> Laugh it off</label><br>
+                    <label><input type="radio" name="q6" value="bob"> Stay calm and keep working</label><br>
+                    <label><input type="radio" name="q6" value="linda"> Panic loudly</label><br>
+                </div>
+
+                <div class="question">
+                    <p>7. Pick a favorite school subject:</p>
+                    <label><input type="radio" name="q7" value="tina"> English</label><br>
+                    <label><input type="radio" name="q7" value="louise"> None, school is for the birds</label><br>
+                    <label><input type="radio" name="q7" value="gene"> Music</label><br>
+                    <label><input type="radio" name="q7" value="bob"> Home Ec</label><br>
+                    <label><input type="radio" name="q7" value="linda"> Drama</label><br>
+                </div>
+
+                <div class="question">
+                    <p>8. What’s your biggest strength?</p>
+                    <label><input type="radio" name="q8" value="tina"> Loyalty</label><br>
+                    <label><input type="radio" name="q8" value="louise"> Strategy</label><br>
+                    <label><input type="radio" name="q8" value="gene"> Creativity</label><br>
+                    <label><input type="radio" name="q8" value="bob"> Hardworking</label><br>
+                    <label><input type="radio" name="q8" value="linda"> Supportive</label><br>
+                </div>
+
+
+                <div class="question">
+                    <p>9. What’s your biggest flaw?</p>
+                    <label><input type="radio" name="q9" value="tina"> Social anxiety</label><br>
+                    <label><input type="radio" name="q9" value="louise"> Manipulative tendencies</label><br>
+                    <label><input type="radio" name="q9" value="gene"> Being too chaotic</label><br>
+                    <label><input type="radio" name="q9" value="bob"> Stressed easily</label><br>
+                    <label><input type="radio" name="q9" value="linda"> Overreacting</label><br>
+                </div>
+
+                <div class="question">
+                    <p>10. What is your perfect birthday present?</p>
+                    <label><input type="radio" name="q10" value="tina"> A romantic book</label><br>
+                    <label><input type="radio" name="q10" value="louise"> Something sharp</label><br>
+                    <label><input type="radio" name="q10" value="gene"> A sound machine</label><br>
+                    <label><input type="radio" name="q10" value="bob"> High-quality tools</label><br>
+                    <label><input type="radio" name="q10" value="linda"> Something handmade</label><br>
+                </div>
+
+
+
+                <button id="submit">See My Character!</button>
             </section>
 
             <section id="result" class="hidden">
-                <h2 id="character name"></h2>
-                <img id="character img" alt="">
-                <p id="character description"></p>
+                <h2 id="character-name"></h2>
+                <img id="character-img" alt="">
+                <p id="character-description"></p>
                 <button id="restart">Try Again</button>
             </section>
         </main>
 
-        <script></script>
+        <script src="script.js"></script>
 
     </body>
 
